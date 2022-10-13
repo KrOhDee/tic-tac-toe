@@ -1,0 +1,27 @@
+$primary: black;
+$secondary: white;
+
+.col {
+    border: 1px solid $primary;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    color: $primary;
+    font-size: 72px;
+}
+
+.info {
+    font-size: 24px;
+    color: white;
+}
+
+.row {
+    width: auto;
+    height: auto;
+}
+
+.header {
+    padding: 0;
+}
